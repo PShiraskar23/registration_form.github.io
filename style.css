@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(87, 160, 185); */
+}
+
+.header{
+    text-align: center;
+    width: 40vw;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-top: 20px;
+    color: white;
+    background-color: blue;
+}
+
+.container {
+    padding: 10px 5px;
+    width: 40vw;
+    height: 70vh;
+    /* background:linear-gradient(45deg,cyan,magenta) ; */
+    box-sizing: border-box;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    outline: none;
+    /* border: 2px solid black; */
+    padding: 5px 0 5px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+textarea{
+    display: block;
+}
+
+.btn {
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+    padding: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+.btn:hover{
+    color: blue;
+    background-color: rgba(0,0,255,0.4);
+}
+.errorMsg{
+    color: red;
+    font-size: 15px;
+    margin: 3px;
+}
+.error{
+    border: 2px solid red;
+}
+
+.success{
+    border: 2px solid rgb(14, 227, 14);
+}
